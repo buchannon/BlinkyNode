@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1= title
+    p #{title} Jasper here
+    div
+        button(class="btn", data-action="bea", onClick="BlinkOn();")
+            Blink On
+    div
+        button(class="btn", data-action="bea", onClick="BlinkOff();")
+            Blink Off
